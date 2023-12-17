@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .navbar-custom {
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .btn-primary-custom {
+            font-family: var(--bs-body-font-family);
+            font-size: 20px;
+            color: rgba(13,110,253);
+            letter-spacing: 1px;
+            line-height: 40px;
+            border: 2px solid rgba(13,110,253);
+            border-radius: 40px;
+            background: transparent;
+            transition: all 0.3s ease 0s;
+        }
+
+        .g-item-apple{
+            width: 50px;
+            height: 500px;
+        }
+
+        .g-item-play{
+            width: 50px;
+            height: 10%;
+        }
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-custom navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <span style="font-weight: 900; font-size: 36px" class="navbar-brand text-primary mb-0 h1 fs-2 fw-bold">Taskia</span>
+                </a>
+            </div> 
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <button style="line-height: 22px; padding-right: 15px; padding-right: 15px" type="button" class="btn btn-primary-custom h1">Try Free</button></li>
+            </ul>              
+        </div>
+    </nav>
+    <section class="flex-container h-100">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <div style="margin-bottom: 4%;">
+                        <h1 class="text-body fw-bold">Task Management and Lists Tools</h1>
+                    </div>
+                    <div style="margin-bottom: 4%;">
+                        <p style="color: #5b5b5b; font-weight: 400; line-height: 20px" class="mb-0 fs-8">
+                        We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business
+                    </p></div>
+                    <div>
+                        <form>
+                            <div class="row mt-2">
+                                <input class="form-control" type="text" id="InputCompanyName" placeholder="Name@company.com" style="width: 60%; border-radius: 40px; float: left; margin-right: 5%;">
+                                <button class="btn btn-primary form-control fw-bold" type="button" style="width: 25%; float: right; border-radius: 40px;">Try it Free</button>
+                            </div>                                       
+                        </form> 
+                    </div>
+                </div>                                                   
+            </div>
+            <div class="col-md-4">
+                <img src="images/hero_image.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </section>
+    <section class="container-flex">
+        <h1 class="fw-bold" style="text-align: center; margin-top: 10%;">Featured Service that We Provide</h1>
+        <br>
+        <div class="row d-flex justify-content-center">
+            <div class="card col-md-2 mt-2 text-center text-bg-primary" style="width: 18rem; margin-right:2%;    margin-bottom: 50px;">
+                <img class="card-img-top" src="images/Image_1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-2">Keep tasks in<br> one place</h5>
+                    <p class="card-text">Save time, avoid losing work and information, delegate and track tasks to stay on schedule.</p>
+                </div>
+            </div>
+            <div class="card col-md-2 mt-2 text-center text-bg-light" style="width: 18rem; margin-right:2%; top: 5% ; margin-top: 50px;">
+                <img class="card-img-top" src="images/Image_2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-2">Keep tasks in <br> one place</h5>
+                    <p class="card-text">Save time, avoid losing work and information, delegate and track tasks to stay on schedule.</p>
+                </div>
+            </div>
+            <div class="card col-md-2 mt-2 text-center text-bg-warning" style="width: 18rem;    margin-bottom: 50px;">
+                <img class="card-img-top" src="images/Image_3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-2">Keep tasks in<br> one place</h5>
+                    <p class="card-text">Save time, avoid losing work and information, delegate and track tasks to stay on schedule.</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section class="container-flex h-100" style="margin-top: 10%;">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <img src="images/Image_8.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-4">
+                <div style="padding-left: 20px" class="d-flex flex-column justify-content-center h-100">
+                    <div style="margin-bottom: 4%;">
+                        <h1 style="font-weight: 800; font-size: 32px" class="text-body">Why do you need task management?</h1>
+                    </div>
+                    <div style="margin-bottom: 4%; line-height: 22px; font-size: 14px; ">
+                        <p style=" line-height: 22px; font-size: 16px" class="mb-0">Do you waste time organizing sticky notes, searching your email
+                        and apps for to-dos, and figuring out what to work on first?
+                        Then you need one solution to prioritize your tasks, manage
+                        your time, and meet your deadlines.</p>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="row mt-2">
+                                <button class="btn btn-primary form-control fw-bold" type="button" style="width: 40%; line-height: 30px; margin-left: 10px; float: right; border-radius: 40px;">Learn More!</button>
+                            </div>                                       
+                        </form> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section class="container-flex h-100" style="margin-top: 10%;">
+        <div class="row d-flex justify-content-center">        
+            <div class="col-md-4">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <div style="margin-bottom: 4%;">
+                        <h1 style="font-weight: 800; font-size: 32px" class="text-body">Seamless teamwork, work flow and efficient</h1>
+                    </div>
+                    <div style="margin-bottom: 4%;"><p  style=" line-height: 22px; font-size: 16px" class="mb-0">Do you waste time organizing sticky notes, searching your email
+                        and apps for to-dos, and figuring out what to work on first?
+                        Then you need one solution to prioritize your tasks, manage
+                        your time, and meet your deadlines.</p></div>
+                    <div class="d-flex flex-row">
+                        <img src="images/Image_6.jpg" class="img-responsive" alt="...">
+                        <img src="images/Image_9.jpg" class="img-responsive" alt="...">
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-4">
+                <img src="images/Image_7.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </section>
+    <section class="container-flex text-center h-100" style="margin-top: 10%;">
+        <h1 style="font-weight: 800; font-size: 32px; padding: 50px" class="text-body">Trust us and feel free to try our service</h1>
+        <div class="row d-flex justify-content-center"> 
+            <div class="col-md-8">
+                <div class="d-flex flex-column">                               
+                    <div class="align-self-start"><img width="300" src="images/Image_4.jpg" class="img-responsive" alt="..."></div>
+                    <div class="align-self-center"><h1 style="font-weight: 1000;margin: 0px;padding: 0px;line-height: 10px;" class="text-primary display-1 fw-bold">100,000</h1></div>
+                    <div  class="align-self-end"><img width="300" src="images/Image_5.jpg" class="img-responsive" alt="..."></div>
+                 </div>
+            </div> 
+        </div>          
+    </section>
+    <section class="flex-container h-100" style="margin-top: 10%; padding-bottom: 5%;">
+        <div class="row d-flex text-center justify-content-center">
+            <div class="col-md-4">
+                <h1 style="font-weight: 800; font-size: 32px" class="text-body">Get better work done</h1>
+                <div style="margin-bottom: 4%;"><p style="color: #5b5b5b; font-weight: 400; font-size: 22px; line-height: 25px"  class="mb-0 ">See why millions of people across 195
+                    countries use Dash.</p></div>
+                <div>
+                    <form>
+                        <div class="row mt-2">
+                            <input class="form-control" type="text" id="InputCompanyName" placeholder="Name@company.com" style="width: 60%; border-radius: 40px; float: left; margin-right: 5%;">
+                            <button class="btn btn-primary form-control fw-bold" type="button" style="width: 25%; float: right; border-radius: 40px;">Try it Free</button>
+                        </div>                                       
+                    </form> 
+                </div>                                                  
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
